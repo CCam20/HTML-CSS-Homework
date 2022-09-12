@@ -1,0 +1,41 @@
+body{
+    margin: 0
+}
+    
+    
+body>main>header{
+
+    background-color: dodgerblue;
+    color: white;
+    margin: 0;
+}
+#logo{
+    margin: 0;
+    padding: 10px;
+}
+body>main>header>ul{
+    list-style: none;
+    padding-bottom: 10px;
+}
+body>main>header>ul>li>a{
+    color: white;
+}
+body>main>article{
+    margin: auto;
+    width: 80%;
+}
+
+#FooterSubmit{
+    float: right;
+    margin: auto;
+}
+.Commentbox{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
